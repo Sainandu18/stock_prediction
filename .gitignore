@@ -1,0 +1,9 @@
+cat > .gitignore << EOF
+*.pyc
+__pycache__/
+.streamlit/
+venv/
+*.csv
+*.json
+*.pkl
+EOF
