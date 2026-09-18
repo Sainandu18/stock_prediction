@@ -76,48 +76,6 @@ Streamlit Dashboard
 * **Yahoo Finance API**
 * **Git & GitHub**
 
-## 📂 Project Structure
 
-```text
-stock-prediction/
-│
-├── app.py
-├── model/
-│   └── xgboost_model.pkl
-├── data/
-│   └── stock_data.csv
-├── notebooks/
-│   └── stock_prediction.ipynb
-├── requirements.txt
-├── README.md
-└── .gitignore
-```
 
-## ⚙️ Installation
 
-```bash
-# Clone the repository
-git clone https://github.com/YOUR_USERNAME/stock-prediction.git
-
-# Navigate to the project
-cd stock-prediction
-
-# Install dependencies
-pip install -r requirements.txt
-```
-
-## ▶️ Run the Application
-
-```bash
-streamlit run app.py
-```
-
-The application will open in your browser.
-
-## ☁️ Deployment
-
-The application can be deployed using **Streamlit Community Cloud**, allowing users to interact with the stock analysis and prediction dashboard through a web browser.
-
-## ⚠️ Disclaimer
-
-This project is intended for **educational and research purposes only**. Stock-market predictions are inherently uncertain, and model predictions should not be considered financial or investment advice.
